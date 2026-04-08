@@ -1,7 +1,7 @@
 from auth.login import authenticate
 from telemetry.parser import parse_signal
-from launch-sequence.dispatcher import dispatch_command
-from ground-control.dashboard import display_status
+from launch_sequence.dispatcher import dispatch_command
+from ground_control.dashboard import display_status
 
 def run_system():
     print("\n==============================")
